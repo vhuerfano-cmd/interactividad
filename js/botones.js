@@ -13,3 +13,13 @@ boton2.addEventListener("click", function() {
 boton3.addEventListener("click", function() {
      console.log("Botón 3 presionado");
 });
+function mouseEnerter() {
+    console.log("Mouse Enter");
+}
+function mouseLeave() {
+    console.log("Mouse Leave");
+}
+function bgColor() {
+    console.log("Background Color");
+    
+}
