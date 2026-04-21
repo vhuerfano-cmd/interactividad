@@ -1,0 +1,26 @@
+menu {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+button {
+    width: 33.3vw;
+    height: auto;
+    font-size: 10vw;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: black;
+}
+body {
+    transition: background-color 1s; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
